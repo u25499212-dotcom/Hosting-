@@ -20,7 +20,7 @@ type HolidaysResult = {
 
 const cityName = ref("Pretoria")
 
-// Pretoria coords (change later if you want)
+// Pretoria coords
 const lat = ref(-25.7479)
 const lon = ref(28.2293)
 
@@ -85,7 +85,7 @@ onMounted(() => {
         <header class="head">
           <h1 class="h1">API</h1>
           <p class="small">
-            Dynamic content from two public APIs: Weather (Open-Meteo) and Public Holidays (Nager.Date).
+            Two public APIs: Weather (Open-Meteo) and Public Holidays (Nager.Date).
           </p>
         </header>
 
@@ -197,7 +197,7 @@ onMounted(() => {
   border: 1px solid rgba(8,26,42,.12);
   border-radius: 16px;
   padding: 16px;
-  background: rgba(244,209,58,.35) ;/* soft yellow tint */
+  background: rgba(244,209,58,.35) ;
 }
 
 .row{
